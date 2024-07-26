@@ -9,6 +9,17 @@ body {
     background-color: #7d56f3;
 }
 
+h1 {
+    color: #eeeeff;
+    font-size: 500;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+
+}
+
 .container {
     width: min(60%, 28.12em);
     position: absolute;
