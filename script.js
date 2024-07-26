@@ -12,7 +12,7 @@ const ageCalculate = () => {
     const currentMonth = today.getMonth() + 1;
     const currentDate = today.getDate();
 
-    if (isDutureDate(birthDetails, currentYear, currentMonth, currentDate)) {
+    if (isFutureDate(birthDetails, currentYear, currentMonth, currentDate)) {
         alert("Not Born Yet");
         displayResult("-", "-", "-");
         return;

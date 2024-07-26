@@ -48,6 +48,7 @@ input {
 button {
     color: #ffffff;
     background-color: #7d56f3;
+    cursor: pointer;
 }
 
 .output-wrapper {
